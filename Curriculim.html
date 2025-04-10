@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="Stylesheet" href="Style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculim Vitae</title>
+</head>
+<body>
+    <div class="parallax">
+        <nav>
+            <ul>
+                <li><a href="#inicio"> Inicio</a></li>
+                <li><a href="#acerca"> Acerca de mí</a></li>
+                <li><a href="#formacion"> Formación</a></li>
+                <li><a href="#experiencia"> Experiencia</a></li>
+                <li><a href="#portafolio"> Portafolio</a></li>
+            </ul>
+        </nav>
+        <header id="inicio" class="slider">
+          <div class="info Centrar">
+            <img src="FotoPersonal.PNG" alt="FotoPersonal">
+            <div>
+                <h1>Luis Brandon leonel Lopez Tejeda</h1>
+                <p><b>Edad:</b> 19</p>
+                <div class="contact-buttons">
+                    <button class="contact-btn EmailBtn" onclick="openModal('email-modal')">Ver Email</button>
+                    <button class="contact-btn PhoneBtn" onclick="openModal('phone-modal')">Ver Teléfono</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="email-modal" class="modal">
+            <div class="modal-content" >
+                <span class="close-btn" onclick="closeModal('email-modal')">&times;</span>
+                <h3>Correo Electrónico</h3>
+                <p>Lblopez51@gmail.com</p>
+            </div>
+        </div>
+        
+        <div id="phone-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('phone-modal')">&times;</span>
+                <h3>Teléfono</h3>
+                <p>3324785359</p>
+            </div>
+        </div>
+        </header>
+
+  <section id="acerca" class="about">
+    <h2>Acerca de mí</h2>
+    <p>Aquí una breve descripción personal, tu perfil profesional, intereses, etc.</p>
+    <p>Soy <b>Leonel</b>, te doy un cordial saludo.
+    <p>- soy tolerante a la mayoría de los géneros musicales, 
+      aunque mi preferencia musical no es fija, normalmente
+      uso la música como terapia. Así que es el mejor modo 
+      de saber cómo me siento y que cosas divagan en mi mente.</p>
+      
+      <b>
+      algunas de mis canciones fav son:
+      <li><a href="https://www.youtube.com/watch?v=Ydv6usKn2rg">Sober to death - car seat headrest</a></li>
+      <li><a href="https://www.youtube.com/watch?v=kwk21sAuJkA">In the valley of the sun - Buddy Stuart</a></li>
+      <li><a href="https://www.youtube.com/watch?v=14yLqza7n9Y">Pretty - korn</a></li>
+      <li><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI">Save your tears - the weeknd</a></li>
+      <li><a href="https://www.youtube.com/watch?v=CY05nUQ4D5M">Hot line - Jack stauber</a></li>
+      <li><a href="https://www.youtube.com/watch?v=0WxDrVUrSvI">Smile - lily allen</a></li>
+      <li><a href="https://www.youtube.com/watch?v=dTS_aNfpbIM">Chest pain - Malcom todd</a></li>
+      <li><a href="https://www.youtube.com/watch?v=M-qc8lJ9x2o">Triste payaso - Orqueza Papilon</a></li>
+      </b>
+      
+      <p>- No tengo malas intenciones, solo ideas realistas 
+        y algo pesimistas. No a todos nos ha tratado bien 
+        la vida, Hago un esfuerzo por  mejorar. Te ofresco 
+        mis disculpas si mis ideales son repulsivos para ti.</p>
+      <p>- Soy introvertido, si deseas hablar inicia tu 
+        la conversación, me veo incapaz de hacerlo por 
+        mi cuenta.</p>
+      <p>- Soy una persona que suele estar sola naturalmente
+        aunque no me desagrada la compañía, pero en ocasiones 
+        suelo aislarme con la intención de despejar mi cabeza 
+        y agilizar mis emociones.</p>
+
+      <p>- Mis colores preferidos son el <b class="R">Rojo</b> , <b class="B">Azul</b> , <b class="M">Morado</b> 
+        , <b class="N">Negro</b> y <b class="A">Amarillo mostaza</b>.</p>
+
+      <p>- Amo los videojuegos, en especial los retro u viejos
+        aunque son muy selectos y en ocaciones juegos indie que
+        casi nadie conoce.</p>
+
+      <p>- Actualmente no trabajo y aun sigo pensando que me gustaria
+        dedicarme, por ahora solo soy un estudiante.</p>
+
+      </p>
+    </p>
+  </p>
+      
+  </section>
+
+  <section id="formacion" class="education">
+    <h2>Formación Académica</h2>
+    <div class="columns">
+      
+      <div class="card">
+        <h3>Centro de Enseñanza Tecnica Industrial (CETI)</h3>
+        <p>Desarrollo estudiantil en la carrera de 
+          Desarrollo de software nivel tegnologo media superior.</p>
+      </div>
+
+      <div class="card">
+        <h3>Escuela Secundaria tecnica jose clemente orozco No 77</h3>
+        <p>Desarrollo estudiantil nivel tecnico electrodomesticos media.</p>
+      </div>
+    
+    </div>
+  </section>
+  <section id="experiencia" class="experience">
+    <h2>Experiencia Laboral</h2>
+    <div class="columns">
+      
+        <div class="card">
+        <h3>Escoolar.com</h3>
+        <b>Puesto: </b> Atencion al cliente
+        
+        <p>
+          <b>Funciones:</b>
+          Realizar promocion de la pagina y su servicio ofreciendo 
+          lo al publico y ayudando a rellenar formularios de 
+          suscripcion a la misma.
+        </p>
+        
+      </div>
+      
+      <div class="card">
+        <h3>Black Diamond</h3>
+        <b>Puesto: </b>
+        Recepcionista y atencion atencion a clientes.
+        
+        <p>
+          <b>Funciones: </b>
+          dar servicio a los clientes que desean comprar productos, 
+          Contabilizar producto recibido y atender pedidos como 
+          entrega de los mismos a los clientes.
+        </p>
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="portafolio" class="portfolio">
+    <h2>Portafolio</h2>
+    
+    <div class="carousel">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+
+      <div class="swiper">
+          <div class="swiper-wrapper images">
+              <div class="swiper-slide">
+                <img src="ComunidadCompetitiva.jpeg" alt="ComunidadCompetitiva" class="APP">
+                <p><b>Comunidad Competitiva escolar</b></p>
+              </div>
+              <div class="swiper-slide">
+                <img src="AppAdministracionPedidos.jpeg" alt="AppAdministracionPedidos" class="APP">
+                <p><b>Applicacion de administracion de pedidos</b></p>
+              </div>
+              <div class="swiper-slide">
+                <img src="Compelo.jpeg" alt="Compelo" class="APP">
+                <p><b>Desarrollo de Pagina web para administracion de juegos competittivos</b></p>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+      <script>
+          const swiper = new Swiper('.swiper', {
+              pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+              },
+              navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+              },
+              autoplay: {
+                  delay: 3000,
+              },
+          });
+
+          function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+          }
+          
+          function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+          }
+    
+          window.onclick = function(event) {
+            if (event.target.className === 'modal') 
+            {
+              event.target.style.display = "none";
+            }
+          }
+      </script>
+
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: none; /* Los slides están ocultos por defecto */
+}
+
+.slide.active {
+    display: block; /* Solo mostramos el slide activo */
+}
